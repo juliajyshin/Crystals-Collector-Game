@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+  }
+
+body {
+    margin: auto;
+    width: 800px;
+    padding: 40px;
+    background-image: url('../images/cave-bg.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(53, 53, 53);
+}
+
+#container {
+    text-align: center;
+}
+
+#header-one {
+    background: rgba(255,255,255, 0.3);
+}
+
+h1 {
+    font-size: 20px;
+    padding: 26px;
+    color: #000;
+}
+
+#instructions-here {
+    background: rgba(255,255,255, 0.3);
+    margin-top: 20px;
+    padding: 26px;
+}
+
+#display {
+    background: rgba(255,255,255, 0.3);
+    margin-top: 20px;
+    padding: 26px;
+    overflow: auto;
+    text-align: center;
+}
+
+#random-number {
+    background: #fff;
+    padding: 26px;
+    width: 350px;
+    float: left;
+    height: 100px;
+}
+
+#score-area {
+    background: #fff;
+    margin-left: 50px;
+    padding: 26px;
+    width: 200px;
+    float: left;
+    height: 100px;
+}
+
+#crystal-buttons-area {
+    background: rgba(255,255,255, 0.3);
+    margin-top: 20px;
+    padding: 26px;
+}
+
+#bottom-area {
+    background: rgba(255,255,255, 0.3);
+    margin-top: 20px;
+    padding: 26px;
+}
+
+#total-score {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#score-number {
+    background: #fff;
+    padding: 26px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.crystal-image {
+    width: 100px;
+    height: 100px;
+    border: dotted;
+    padding: 7px;
+    border-color: #fff;
+    margin: 0 15px;
+}

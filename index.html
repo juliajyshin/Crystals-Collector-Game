@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystal Collector Game</title>
+
+    <!-- jQuery link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- CSS + CSS RESET link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header-one">
+             <h1>o Crystal Collector Game o</h1>
+        </div>
+
+        <div id="instructions-here">
+                <ul>
+                <li>You will be given a random number at the start of the game.</li>
+                <li>There are four crystals below.</li>
+                <li>By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                <li>You win the game by matching your total score to a random number.</li>
+                <li>You lose the game if your total score goes above the random number. </li>
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            </ul>
+        </div>
+
+        <div id="display">
+            <div id="random-number"></div>
+            <div id="score-area"></div>
+        </div>
+
+        <div id="crystal-buttons-area">
+            <div id="crystal-area">
+            <img class="crystal-image" src="assets/images/diamond.png" alt="crystals">
+            <img class="crystal-image" src="assets/images/ruby.png" alt="crystals">
+            <img class="crystal-image" src="assets/images/sapphire.png" alt="crystals">
+            <img class="crystal-image" src="assets/images/zircon.png" alt="crystals">
+            </div>
+        </div>
+
+        <div id="bottom-area">
+            <div id="total-score">Your total score is:</div>
+            <div id="score-number"></div>
+        </div>
+    </div>
+
+<!-- My gamejs link -->
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
