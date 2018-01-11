@@ -13,7 +13,7 @@
 <body>
     <div id="container">
         <div id="header-one">
-             <h1>o Crystal Collector Game o</h1>
+             <h1>Crystal Collector Game</h1>
         </div>
 
         <div id="instructions-here">
@@ -29,16 +29,25 @@
         </div>
 
         <div id="display">
-            <div id="random-number"></div>
-            <div id="score-area"></div>
+            <div id="target-number">
+                <p>Number to Guess:</p>
+                <p><span id="guess-number"></span></p>
+            </div>
+            <div id="score-area">
+                <p># of Wins:</p>
+                <p><span id="count-wins"></span></p>
+                <br>
+                <p># of Losses:</p>
+                <p><span id="count-losses"></span></p>
+            </div>
         </div>
 
         <div id="crystal-buttons-area">
             <div id="crystal-area">
-            <img class="crystal-image" src="assets/images/diamond.png" alt="crystals">
-            <img class="crystal-image" src="assets/images/ruby.png" alt="crystals">
-            <img class="crystal-image" src="assets/images/sapphire.png" alt="crystals">
-            <img class="crystal-image" src="assets/images/zircon.png" alt="crystals">
+            <img class="crystal-image" src="assets/images/diamond.png" id="diamond">
+            <img class="crystal-image" src="assets/images/ruby.png" id="ruby">
+            <img class="crystal-image" src="assets/images/sapphire.png" id="sapphire">
+            <img class="crystal-image" src="assets/images/zircon.png" id="zircon">
             </div>
         </div>
 
