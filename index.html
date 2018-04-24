@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <title>Crystal Collector Game</title>
+    <title>Crystals Collector Game</title>
 
     <!-- jQuery link -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,55 +11,75 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="header-one">
-             <h1>Crystal Collector Game</h1>
+            <div id="header-white">
+                <h1>Crystals Collector Game</h1>
+            </div>
         </div>
-
         <div id="instructions-here">
+            <div id="instruction-white">
+                <h2>How to Play</h2>
                 <ul>
-                <li>You will be given a random number at the start of the game.</li>
-                <li>There are four crystals below.</li>
-                <li>By clicking on a crystal you will add a specific amount of points to your total score.</li>
-                <li>You win the game by matching your total score to a random number.</li>
-                <li>You lose the game if your total score goes above the random number. </li>
-                <li>The value of each crystal is hidden from you until you click on it.</li>
-                <li>Each time when the game starts, the game will change the values of each crystal.</li>
-            </ul>
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four crystals below.</li>
+                    <li>By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                    <li>You win the game by matching your total score to a random number.</li>
+                    <li>You lose the game if your total score goes above the random number. </li>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                </ul>
+            </div>
         </div>
-
         <div id="display">
             <div id="target-number">
-                <p>Number to Guess:</p>
-                <p><span id="guess-number"></span></p>
+                <h2>Number to Guess:</h2>
+                <h3>
+                    <span id="guessing-number"></span>
+                </h3>
             </div>
             <div id="score-area">
-                <p># of Wins:</p>
-                <p><span id="count-wins"></span></p>
+                <h2># of Wins:</h2>
+                <h1>
+                    <span id="count-wins">0</span>
+                </h1>
                 <br>
-                <p># of Losses:</p>
-                <p><span id="count-losses"></span></p>
+                <h2># of Losses:</h2>
+                <h1>
+                    <span id="count-losses">0</span>
+                </h1>
             </div>
         </div>
 
         <div id="crystal-buttons-area">
             <div id="crystal-area">
-            <img class="crystal-image" src="assets/images/diamond.png" id="diamond">
-            <img class="crystal-image" src="assets/images/ruby.png" id="ruby">
-            <img class="crystal-image" src="assets/images/sapphire.png" id="sapphire">
-            <img class="crystal-image" src="assets/images/zircon.png" id="zircon">
+                <img class="crystal-image" src="assets/images/diamond.png" id="diamond">
+                <img class="crystal-image" src="assets/images/ruby.png" id="ruby">
+                <img class="crystal-image" src="assets/images/sapphire.png" id="sapphire">
+                <img class="crystal-image" src="assets/images/zircon.png" id="zircon">
             </div>
         </div>
 
         <div id="bottom-area">
-            <div id="total-score">Your total score is:</div>
-            <div id="score-number"></div>
+            <div id="total-score">
+                <h2>Your Total Score Is:</h2>
+            </div>
+            <h3>
+                <div id="score-number"></div>
+            </h3>
         </div>
     </div>
-
-<!-- My gamejs link -->
- <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <footer>
+        <div id="footer-white">
+            Copyright &copy; 2017
+            <a href="http://www.juliajyshin.com">www.juliajyshin.com</a>
+        </div>
+    </footer>
+    <!-- My gamejs link -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>
